@@ -129,5 +129,9 @@ export const streamingCatalogs: Record<string, Catalog[]> = {
   dpe: [
     { id: "streaming.dpe", name: "Discovery+", type: "movie" },
     { id: "streaming.dpe", name: "Discovery+", type: "series" }
+  ],
+  fbx: [
+    { id: "streaming.fbx", name: "FilmBox+", type: "movie" },
+    { id: "streaming.fbx", name: "FilmBox+", type: "series" }
   ]
 }; 

@@ -30,6 +30,7 @@
     "blv": "BluTV",
     "cpd": "Canal+",
     "dpe": "Discovery+",
+    "fbx": "FilmBox+",
     "added_date": "Date Added",
     "popularity": "Popularity",
     "release_date": "Release Date",
@@ -164,5 +165,19 @@
     "hlu": "הולו",
     "cru": "קראנצ'ירול",
     "dpe": "דיסקברי פלוס"
+  },
+  "hu-HU": {
+    "popular": "Népszerű",
+    "year": "Év szerint",
+    "language": "Eredeti nyelv szerint",
+    "trending": "Felkapott",
+    "favorites": "Kedvencek",
+    "watchlist": "Figyelőlista",
+    "added_date": "Hozzáadás dátuma",
+    "popularity": "Népszerűség",
+    "release_date": "Kiadás dátuma",
+    "random": "Véletlenszerű",
+    "desc": "A legújabbak elsőként",
+    "asc": "A legrégebbiek elsőként"
   }
 }

@@ -186,6 +186,12 @@
       "watchProviderId": 510,
       "country": "GB",
       "extraSupported": ["genre", "skip"]
+    },
+    "fbx": {
+      "nameKey": "fbx",
+      "watchProviderId": 701,
+      "country": "HU",
+      "extraSupported": ["genre", "skip"]
     }
   }
 }

@@ -21,7 +21,8 @@ export const streamingServices = [
     { id: "sst", name: "SkyShowtime", icon: "/skyshowtime.webp" },
     { id: "blv", name: "BluTV", icon: "/blu.webp" },
     { id: "cpd", name: "Canal+", icon: "/canal-plus.webp" },
-    { id: "dpe", name: "Discovery+", icon: "/discovery-plus.webp" }
+    { id: "dpe", name: "Discovery+", icon: "/discovery-plus.webp" },
+    { id: "fbx", name: "FilmBox+", icon: "/filmbox.webp" }
   ];
   
   export const regions = {
@@ -42,6 +43,9 @@ export const streamingServices = [
     ],
     'France': [
       'nfx', 'nfk', 'dnp', 'amp', 'atp', 'hbm', 'hay', 'cpd'
+    ],
+    'Hungary': [
+      'nfx', 'hbm', 'dnp', 'amp', 'atp', 'sst', 'fbx', 'pmp' 
     ],
     'Any': [
       'nfx', 'nfk', 'dnp', 'amp', 'atp', 'hbm', 'pmp', 'hlu', 'pcp', 'clv', 'gop', 'blv',

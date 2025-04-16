@@ -14,7 +14,7 @@ async function getCatalog(type, language, page, id, genre, config) {
 
   return fetchFunction(parameters)
     .then((res) => ({
-      metas: res.results.map(el => parseMedia(el, type, genreList))
+      metas: res.results.filter(el => /[áéíóöőúüűÁÉÍÓÖŐÚÜŰ]/.test(el.overview || "")).map(el => parseMedia(el, type, genreList))
     }))
     .catch(console.error);
 }
